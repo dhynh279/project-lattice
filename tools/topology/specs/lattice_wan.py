@@ -1,5 +1,5 @@
 from topo import Diagram
-OUT = 'highlights/project-lattice/docs/diagrams/wan'
+OUT = 'docs/diagrams/wan'
 def build():
     d = Diagram(1500, 960)
     d.area(40, 70, 400, 240, 'Team 1 · 20.0.0.0/16')

@@ -1,5 +1,5 @@
 from topo import Diagram
-OUT = 'highlights/project-lattice/docs/diagrams/team3'
+OUT = 'docs/diagrams/team3'
 def build():
     d = Diagram(1500, 900)
     d.node('hub', 1250, 55, 260, 56, 'Hub ASA → MPLS core', ['8.8.9.41'], 'external')

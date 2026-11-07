@@ -1,5 +1,5 @@
 from topo import Diagram
-OUT = 'highlights/project-lattice/docs/diagrams/hub'
+OUT = 'docs/diagrams/hub'
 def build():
     d = Diagram(1500, 800)
     d.area(260, 110, 940, 510, 'Hub · OSPF 65535 area 0 · MPLS LDP · core 8.8.8.0/24')

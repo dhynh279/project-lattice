@@ -1,5 +1,5 @@
 from topo import Diagram
-OUT = 'highlights/project-lattice/docs/diagrams/team2'
+OUT = 'docs/diagrams/team2'
 def build():
     d = Diagram(1200, 830)
     d.node('hub', 600, 50, 260, 50, 'Hub', ['P2 Gi1/0/13 · 8.8.9.108/30'], 'external')
